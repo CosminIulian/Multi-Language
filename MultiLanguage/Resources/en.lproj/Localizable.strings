@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  MultiLanguage
+
+  Created by Cosmin Iulian on 27.06.2021.
+  
+*/
+
+"home" = "Home";
+
+"back" = "Back";
+
+"next" = "Next";
+
+"settings" = "Settings";
+
+"menu" = "Meniu";
+
+"welcome" = "Welcome";
+
+"profile" = "Profile";
+
+"search" = "Search";
+
+"user" = "User";
+
+"yes" = "Yes";
+
+"no" = "No";

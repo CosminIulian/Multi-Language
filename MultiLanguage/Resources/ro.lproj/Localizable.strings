@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  MultiLanguage
+
+  Created by Cosmin Iulian on 27.06.2021.
+  
+*/
+
+"home" = "Acasă";
+
+"back" = "Înapoi";
+
+"next" = "Următorul";
+
+"settings" = "Setări";
+
+"menu" = "Meniu";
+
+"welcome" = "Bun venit";
+
+"profile" = "Profil";
+
+"search" = "Căutare";
+
+"user" = "Utilizator";
+
+"yes" = "Da";
+
+"no" = "Nu";
+

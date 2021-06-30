@@ -16,7 +16,7 @@ public class ML {
             key,
             tableName: nil,
             bundle: Bundle(for: self),
-            value: key,
+            value: "",
             comment: ""
         )
     }

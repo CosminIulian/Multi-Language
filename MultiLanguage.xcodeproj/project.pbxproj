@@ -13,6 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39B3D1B2268CBA2400407B98 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
 		39C777CA2688DB2300D3527E /* MultiLanguage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultiLanguage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C777CD2688DB2300D3527E /* MultiLanguage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiLanguage.h; sourceTree = "<group>"; };
 		39C777CE2688DB2300D3527E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +33,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39B3D1B0268CB9E300407B98 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				39C777DB2688DD8C00D3527E /* ML.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		39B3D1B1268CBA0700407B98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39C777D92688DC8B00D3527E /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		39C777C02688DB2200D3527E = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +69,9 @@
 			isa = PBXGroup;
 			children = (
 				39C777CD2688DB2300D3527E /* MultiLanguage.h */,
+				39B3D1B0268CB9E300407B98 /* Source */,
+				39B3D1B1268CBA0700407B98 /* Resources */,
 				39C777CE2688DB2300D3527E /* Info.plist */,
-				39C777DB2688DD8C00D3527E /* ML.swift */,
-				39C777D92688DC8B00D3527E /* Localizable.strings */,
 			);
 			path = MultiLanguage;
 			sourceTree = "<group>";
@@ -112,6 +129,7 @@
 			knownRegions = (
 				en,
 				fr,
+				ro,
 			);
 			mainGroup = 39C777C02688DB2200D3527E;
 			productRefGroup = 39C777CB2688DB2300D3527E /* Products */;
@@ -151,6 +169,7 @@
 			children = (
 				39C777D82688DC8B00D3527E /* en */,
 				39C777DA2688DCC400D3527E /* fr */,
+				39B3D1B2268CBA2400407B98 /* ro */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

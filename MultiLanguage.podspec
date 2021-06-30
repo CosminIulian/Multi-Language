@@ -7,10 +7,9 @@ Pod::Spec.new do |s|
   s.authors = { 'Cosmin Iulian' => 'cosmin.iulian03@gmail.com' }
   s.source = { :git => 'https://github.com/CosminIulian/Multi-Language.git', :tag => s.version }
 
+  s.swift_versions = '5.0'
   s.ios.deployment_target = '10.0'
 
-  s.swift_versions = ['5.1', '5.2', '5.3']
-
-  s.source_files = 'MultiLanguage/*.swift'
-
+  s.source_files = 'MultiLanguage/Source/*.swift'
+  s.resources = 'MultiLanguage/Resources/**/*.strings'
 end
